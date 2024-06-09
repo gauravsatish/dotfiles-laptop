@@ -1,0 +1,35 @@
+{
+   "author": "__MSG_author__",
+   "background": {
+      "persistent": false,
+      "scripts": [ "src/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon128.png",
+      "default_popup": "index.html",
+      "default_title": "Github Gloc"
+   },
+   "content_scripts": [ {
+      "js": [ "src/inject.js" ],
+      "matches": [ "*://github.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "32": "img/icon32.png",
+      "64": "img/icon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh+rYWg6Ie2qpar4lQMA8DbJDjY39uyGk2vL9xhn0vRH1PHkJcs1e0ixvjAYFcbHNpgJetU3OEM23XGN0o/rMdDY9sJkjGgoGuPH2kn5t59b8Wwf1QIq0U0/y51wW3JlX2klwzxtQs7YXcBnpu7Jyku2uwDEeXhUiiQ+CkTCwf6ldV0uNr5rZMCeov9Hkh321q0gI2qEgSj6lEFahyjDVBgXHyu/0sQ/4ABZoqDLeknespQUsQfDBFj/XWQOyHslpEgaBODapkoJiTv9xBPDTCTnueMzTbhpJFNb6X+lty5XCzb+n0l4PkFHzT/IuQ5Ct8kFGGd835RJ1LHR4CtsTBQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "options_page": "options.html",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "*://*.github.com/*" ],
+   "short_name": "__MSG_shortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "8.2.67"
+}

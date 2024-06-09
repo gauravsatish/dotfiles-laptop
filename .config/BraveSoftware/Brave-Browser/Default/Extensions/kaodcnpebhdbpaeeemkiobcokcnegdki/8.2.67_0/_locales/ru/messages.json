@@ -1,0 +1,89 @@
+{
+   "addToken": {
+      "message": "Добавить Github токен"
+   },
+   "attentionPlease": {
+      "message": "Можно чуточку вашего внимания?"
+   },
+   "author": {
+      "message": "Артем Соловьев"
+   },
+   "description": {
+      "message": "Gives you approximate count of lines of code on GitHub"
+   },
+   "github": {
+      "message": "GitHub"
+   },
+   "indexCountsFrom": {
+      "message": "Gives you approximate count of lines of code from:"
+   },
+   "indexEtc": {
+      "message": "и тд."
+   },
+   "indexProjectPage": {
+      "message": "отдельный репозиторий"
+   },
+   "indexSearchPage": {
+      "message": "результаты поиска"
+   },
+   "indexTrandingPage": {
+      "message": "трендовая страница"
+   },
+   "indexUserPage": {
+      "message": "репозитории пользователя"
+   },
+   "indexWorksOnly": {
+      "message": "Работает только на"
+   },
+   "lines": {
+      "message": "строк"
+   },
+   "name": {
+      "message": "GitHub Gloc"
+   },
+   "optionsAccess": {
+      "message": "получить доступ к приватному репозиторию"
+   },
+   "optionsCreateToken": {
+      "message": "создать токен"
+   },
+   "optionsInputToken": {
+      "message": "Персональный токен доступа"
+   },
+   "optionsLimits": {
+      "message": "избавиться от ограничений неаутентифицированных запросов"
+   },
+   "optionsSaveButton": {
+      "message": "Сохранить"
+   },
+   "optionsSaved": {
+      "message": "Настройки сохранены!"
+   },
+   "optionsTitle": {
+      "message": "Настройки"
+   },
+   "optionsTokenMustbeString": {
+      "message": "Токен должен быть строкой, например"
+   },
+   "optionsTokenWalid": {
+      "message": "Токен действителен."
+   },
+   "optionsTokenWrongLength": {
+      "message": "Неправильная длина токена доступа!"
+   },
+   "optionsUlDescription": {
+      "message": "использует GitHub API. По умолчанию он выполняет неаутентифицированные запросы к GitHub API. Установите токен доступа если хотите:"
+   },
+   "shortName": {
+      "message": "Gloc"
+   },
+   "totalDirLoc": {
+      "message": "Итого строк кода в текущей директории:"
+   },
+   "totalExtLoc": {
+      "message": "По типам файлов:"
+   },
+   "translateOurApp": {
+      "message": "Помогите нам перевести это расширение"
+   }
+}

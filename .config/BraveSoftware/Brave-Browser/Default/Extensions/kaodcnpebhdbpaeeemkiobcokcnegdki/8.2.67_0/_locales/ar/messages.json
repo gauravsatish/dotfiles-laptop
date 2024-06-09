@@ -1,0 +1,89 @@
+{
+   "addToken": {
+      "message": "إضافة جيثبوكين"
+   },
+   "attentionPlease": {
+      "message": "يرجى الانتباه؟"
+   },
+   "author": {
+      "message": "أرتيم سولوفيف"
+   },
+   "description": {
+      "message": "Gives you approximate count of lines of code on GitHub"
+   },
+   "github": {
+      "message": "GitHub"
+   },
+   "indexCountsFrom": {
+      "message": "Gives you approximate count of lines of code from:"
+   },
+   "indexEtc": {
+      "message": "إلخ"
+   },
+   "indexProjectPage": {
+      "message": "صفحة تفاصيل المشروع"
+   },
+   "indexSearchPage": {
+      "message": "صفحة نتائج البحث"
+   },
+   "indexTrandingPage": {
+      "message": "الصفحة الرائجة"
+   },
+   "indexUserPage": {
+      "message": "صفحة المستخدم"
+   },
+   "indexWorksOnly": {
+      "message": "يعمل فقط على"
+   },
+   "lines": {
+      "message": "خطوط"
+   },
+   "name": {
+      "message": "GitHub Gloc"
+   },
+   "optionsAccess": {
+      "message": "الوصول إلى مستودع خاص"
+   },
+   "optionsCreateToken": {
+      "message": "خلق رمزية"
+   },
+   "optionsInputToken": {
+      "message": "رمز الوصول الشخصي"
+   },
+   "optionsLimits": {
+      "message": "تجاوز حد المعدل للطلبات غير المصادق عليها"
+   },
+   "optionsSaveButton": {
+      "message": "حفظ"
+   },
+   "optionsSaved": {
+      "message": "تم حفظ الخيارات!"
+   },
+   "optionsTitle": {
+      "message": "خيارات"
+   },
+   "optionsTokenMustbeString": {
+      "message": "يجب أن يكون رمز الوصول عبارة عن سلسلة ، مثل."
+   },
+   "optionsTokenWalid": {
+      "message": "الرمز المميز صالح."
+   },
+   "optionsTokenWrongLength": {
+      "message": "يبدو أن طول رمز الوصول غير صحيح!"
+   },
+   "optionsUlDescription": {
+      "message": "يستخدم واجهة برمجة تطبيقات GitHub. بشكل افتراضي ، تُجري طلبات لم تتم مصادقتها إلى واجهة برمجة تطبيقات GitHub ، وتعين رمز وصول شخصي إذا كنت تريد:"
+   },
+   "shortName": {
+      "message": "Gloc"
+   },
+   "totalDirLoc": {
+      "message": "ساعدنا في ترجمة هذا التطبيق"
+   },
+   "totalExtLoc": {
+      "message": "بواسطة الإضافات:"
+   },
+   "translateOurApp": {
+      "message": "Help us translate this app"
+   }
+}

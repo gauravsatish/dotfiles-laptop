@@ -1,0 +1,84 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 429px;
+  width: 500px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #FFF;
+  font: 14px Lato, sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+a, a:link, a:hover, a:active, a:visited {
+  color: #2d9ec8;
+}
+
+p {
+  color: #333;
+  overflow: hidden;
+  margin: 5px 0 0 0;
+  padding: 5px;
+  border: 1px solid #CCC;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#loading {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  backround-color: #d14;
+  background-image: url('loading.gif');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: none;
+}
+
+#container {
+  display: none;
+  padding: 0 5px 0 4px;
+  overflow: auto;
+}
+
+#thumbnail {
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+#thumbnail img {
+  display: block;
+  height: 350px;
+  width: 500px;
+}
+
+#thumbnail a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#thumbnail-message {
+  color: #666;
+  font-style: italic;
+}
+
+#error {
+  width: 355px;
+  padding: 3px 5px 5px 5px;
+  color: #D14;
+  text-align: center;
+}

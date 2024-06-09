@@ -1,0 +1,89 @@
+{
+   "addToken": {
+      "message": "Github Token toevoegen"
+   },
+   "attentionPlease": {
+      "message": "Mag ik uw aandacht, alstublieft?"
+   },
+   "author": {
+      "message": "Kas Elvirov"
+   },
+   "description": {
+      "message": "Geeft je een geschatte telling van regels code op GitHub"
+   },
+   "github": {
+      "message": "GitHub"
+   },
+   "indexCountsFrom": {
+      "message": "Geeft bij benadering het aantal regels code van:"
+   },
+   "indexEtc": {
+      "message": "etc."
+   },
+   "indexProjectPage": {
+      "message": "project detailpagina"
+   },
+   "indexSearchPage": {
+      "message": "zoekresultaten pagina"
+   },
+   "indexTrandingPage": {
+      "message": "trending pagina"
+   },
+   "indexUserPage": {
+      "message": "gebruikerspagina"
+   },
+   "indexWorksOnly": {
+      "message": "Werkt alleen op"
+   },
+   "lines": {
+      "message": "regels"
+   },
+   "name": {
+      "message": "GitHub Gloc"
+   },
+   "optionsAccess": {
+      "message": "openen van een privé repository"
+   },
+   "optionsCreateToken": {
+      "message": "token aanmaken"
+   },
+   "optionsInputToken": {
+      "message": "Persoonlijke access token"
+   },
+   "optionsLimits": {
+      "message": "de snelheidslimiet van niet-geauthenticeerde verzoeken omzeilen"
+   },
+   "optionsSaveButton": {
+      "message": "Opslaan"
+   },
+   "optionsSaved": {
+      "message": "Opties opgeslagen!"
+   },
+   "optionsTitle": {
+      "message": "Opties"
+   },
+   "optionsTokenMustbeString": {
+      "message": "Access Token moet een string zijn, bv."
+   },
+   "optionsTokenWalid": {
+      "message": "Token is geldig."
+   },
+   "optionsTokenWrongLength": {
+      "message": "Access Token lengte lijkt verkeerd!"
+   },
+   "optionsUlDescription": {
+      "message": "gebruikt de GitHub API. Standaard doet het ongeauthenticeerde verzoeken aan de GitHub API, stel een persoonlijk toegangstoken in als je dat wilt:"
+   },
+   "shortName": {
+      "message": "Gloc"
+   },
+   "totalDirLoc": {
+      "message": "Totaal aantal regels in de huidige directory:"
+   },
+   "totalExtLoc": {
+      "message": "Door extensies:"
+   },
+   "translateOurApp": {
+      "message": "Help ons deze app te vertalen"
+   }
+}

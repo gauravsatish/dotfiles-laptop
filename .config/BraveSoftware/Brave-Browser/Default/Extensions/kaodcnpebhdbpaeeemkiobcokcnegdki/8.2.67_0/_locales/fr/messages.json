@@ -1,0 +1,89 @@
+{
+   "addToken": {
+      "message": "Ajouter un token GitHub"
+   },
+   "attentionPlease": {
+      "message": "Pouvez-vous nous aider, sîl vous plaît ?"
+   },
+   "author": {
+      "message": "Kas Elvirov"
+   },
+   "description": {
+      "message": "Gives you approximate count of lines of code on GitHub"
+   },
+   "github": {
+      "message": "GitHub"
+   },
+   "indexCountsFrom": {
+      "message": "Gives you approximate count of lines of code from:"
+   },
+   "indexEtc": {
+      "message": "etc."
+   },
+   "indexProjectPage": {
+      "message": "page de détails d'un projet"
+   },
+   "indexSearchPage": {
+      "message": "page de résultats de recherche"
+   },
+   "indexTrandingPage": {
+      "message": "page des dépôts populaires"
+   },
+   "indexUserPage": {
+      "message": "page utilisateur"
+   },
+   "indexWorksOnly": {
+      "message": "Fonctionne seulement sur"
+   },
+   "lines": {
+      "message": "lignes"
+   },
+   "name": {
+      "message": "GitHub Gloc"
+   },
+   "optionsAccess": {
+      "message": "accéder aux dépôts privés"
+   },
+   "optionsCreateToken": {
+      "message": "créer un token"
+   },
+   "optionsInputToken": {
+      "message": "Token d'accès personnel"
+   },
+   "optionsLimits": {
+      "message": "ignorer la limite du nombre d'accès non privilégiés"
+   },
+   "optionsSaveButton": {
+      "message": "Sauvegarder"
+   },
+   "optionsSaved": {
+      "message": "Options sauvegardées !"
+   },
+   "optionsTitle": {
+      "message": "Options"
+   },
+   "optionsTokenMustbeString": {
+      "message": "Le token d'accès doit être une chaîne de caractères String. Exemple : "
+   },
+   "optionsTokenWalid": {
+      "message": "Le token est valide."
+   },
+   "optionsTokenWrongLength": {
+      "message": "La taille du token d'accès est incorrect !"
+   },
+   "optionsUlDescription": {
+      "message": "utilise l'API GitHub. Par défaut, il effectue un accès non priviliégié à l'API. En lui attribuant votre token d'accès personnel, l'outil pourra effectuer les actions suivantes :"
+   },
+   "shortName": {
+      "message": "Gloc"
+   },
+   "totalDirLoc": {
+      "message": "Nombre total de lignes dans ce répertoire:"
+   },
+   "totalExtLoc": {
+      "message": "Par extensions:"
+   },
+   "translateOurApp": {
+      "message": "Contribuer à notre traduction"
+   }
+}

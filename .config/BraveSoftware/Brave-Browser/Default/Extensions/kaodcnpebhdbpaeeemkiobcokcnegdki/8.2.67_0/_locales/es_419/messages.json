@@ -1,0 +1,89 @@
+{
+   "addToken": {
+      "message": "Añadir token de Github"
+   },
+   "attentionPlease": {
+      "message": "¿Puedo tener su atención, por favor?"
+   },
+   "author": {
+      "message": "Kas Elvirov"
+   },
+   "description": {
+      "message": "Gives you approximate count of lines of code on GitHub"
+   },
+   "github": {
+      "message": "GitHub"
+   },
+   "indexCountsFrom": {
+      "message": "Gives you approximate count of lines of code from:"
+   },
+   "indexEtc": {
+      "message": "etcétera."
+   },
+   "indexProjectPage": {
+      "message": "página de los detalles del proyecto"
+   },
+   "indexSearchPage": {
+      "message": "página de búsqueda de resultados"
+   },
+   "indexTrandingPage": {
+      "message": "página de tendencias"
+   },
+   "indexUserPage": {
+      "message": "página del usuario"
+   },
+   "indexWorksOnly": {
+      "message": "Sólo funciona en"
+   },
+   "lines": {
+      "message": "líneas"
+   },
+   "name": {
+      "message": "GitHub Gloc"
+   },
+   "optionsAccess": {
+      "message": "accesar a un depósito privado"
+   },
+   "optionsCreateToken": {
+      "message": "crear token"
+   },
+   "optionsInputToken": {
+      "message": "token personal de acceso"
+   },
+   "optionsLimits": {
+      "message": "omitir el límite de rango de solicitudes no autentificadas"
+   },
+   "optionsSaveButton": {
+      "message": "Guardar"
+   },
+   "optionsSaved": {
+      "message": "Opciones guardadas!"
+   },
+   "optionsTitle": {
+      "message": "Opciones"
+   },
+   "optionsTokenMustbeString": {
+      "message": "El token de acceso debe ser una cuerda e.g"
+   },
+   "optionsTokenWalid": {
+      "message": "El token es válido."
+   },
+   "optionsTokenWrongLength": {
+      "message": "¡La longitud del token de acceso es incorrecta!"
+   },
+   "optionsUlDescription": {
+      "message": "utiliza la API de github. De forma predeterminada, éste realiza solicitudes no autentificadas en la API de Github, defina el token de acceso personal si usted lo desea:"
+   },
+   "shortName": {
+      "message": "Gloc"
+   },
+   "totalDirLoc": {
+      "message": "Total de líneas en el directorio actual:"
+   },
+   "totalExtLoc": {
+      "message": "Por extensiones:"
+   },
+   "translateOurApp": {
+      "message": "Ayúdanos a traducir esta página"
+   }
+}

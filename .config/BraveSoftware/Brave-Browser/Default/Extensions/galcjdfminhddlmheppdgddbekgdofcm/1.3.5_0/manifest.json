@@ -1,0 +1,22 @@
+{
+   "author": "The Master",
+   "browser_action": {
+      "default_icon": "thumbnail-48.png",
+      "default_popup": "popup.html",
+      "default_title": "Click to view current video thumbnail"
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "A simple extension that grabs the thumbnail from the current youtube video and displays it.",
+   "icons": {
+      "128": "thumbnail-128.png",
+      "16": "thumbnail-16.png",
+      "48": "thumbnail-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFirksEKV5HW4LuTlhckvh2jxgqM9z2YXF2J1tgtji0dQ7ScN81xhVOlYTGbt5iwt7v1sSWeJ6pRiDeqzjJ88SsmSUm60OrM8FSxauYOSsu99HRIGIPyQ7s7ucEaB8TvdIbYFqMKumjNaZBKCntmYRSY9WnKsr19X/U7hghp84gwIDAQAB",
+   "manifest_version": 2,
+   "name": "Thumbnail Viewer for YouTube™",
+   "permissions": [ "activeTab", "*://*.youtube.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.5",
+   "web_accessible_resources": [ "jquery.js", "popup.js", "popup.css", "thumbnail-16.png", "thumbnail-48.png", "thumbnail-128.png" ]
+}

@@ -1,0 +1,89 @@
+{
+   "addToken": {
+      "message": "GitHubトークンを追加する"
+   },
+   "attentionPlease": {
+      "message": "このツールに協力しませんか？"
+   },
+   "author": {
+      "message": "Kas Elvirov"
+   },
+   "description": {
+      "message": "Gives you approximate count of lines of code on GitHub"
+   },
+   "github": {
+      "message": "GitHub"
+   },
+   "indexCountsFrom": {
+      "message": "Gives you approximate count of lines of code from:"
+   },
+   "indexEtc": {
+      "message": "その他"
+   },
+   "indexProjectPage": {
+      "message": "プロジェクトの詳細ページ"
+   },
+   "indexSearchPage": {
+      "message": "検索結果一覧"
+   },
+   "indexTrandingPage": {
+      "message": "トレンドページ"
+   },
+   "indexUserPage": {
+      "message": "ユーザーページ"
+   },
+   "indexWorksOnly": {
+      "message": "次のサイト専用です："
+   },
+   "lines": {
+      "message": "行数"
+   },
+   "name": {
+      "message": "GitHub Gloc"
+   },
+   "optionsAccess": {
+      "message": "プライベートリポジトリへのアクセス"
+   },
+   "optionsCreateToken": {
+      "message": "トークンを発行する"
+   },
+   "optionsInputToken": {
+      "message": "個人認証トークン"
+   },
+   "optionsLimits": {
+      "message": "アクセス回数の制限を解除"
+   },
+   "optionsSaveButton": {
+      "message": "保存"
+   },
+   "optionsSaved": {
+      "message": "設定が保存されました！"
+   },
+   "optionsTitle": {
+      "message": "設定"
+   },
+   "optionsTokenMustbeString": {
+      "message": "認証トークンは文字列でなければありません。例："
+   },
+   "optionsTokenWalid": {
+      "message": "トークンは有効です。"
+   },
+   "optionsTokenWrongLength": {
+      "message": "認証トークンの長さが異常です！"
+   },
+   "optionsUlDescription": {
+      "message": "はGitHub APIに基づいているため、全ての機能を使用するためには認証用のトークンが必要です。貴方がそのトークンを発行することで、この拡張機能に以下の権限を与えます："
+   },
+   "shortName": {
+      "message": "Gloc"
+   },
+   "totalDirLoc": {
+      "message": "このリポジトリの合計行数 :"
+   },
+   "totalExtLoc": {
+      "message": "拡張子毎の行数："
+   },
+   "translateOurApp": {
+      "message": "翻訳に協力する"
+   }
+}

@@ -1,0 +1,89 @@
+{
+   "addToken": {
+      "message": "Dodaj token Github"
+   },
+   "attentionPlease": {
+      "message": "May I have your attention, please?"
+   },
+   "author": {
+      "message": "Kas Elvirov"
+   },
+   "description": {
+      "message": "Gives you approximate count of lines of code on GitHub"
+   },
+   "github": {
+      "message": "GitHub"
+   },
+   "indexCountsFrom": {
+      "message": "Gives you approximate count of lines of code from:"
+   },
+   "indexEtc": {
+      "message": "itd."
+   },
+   "indexProjectPage": {
+      "message": "strony szczegółów projektu"
+   },
+   "indexSearchPage": {
+      "message": "strony z wynikami wyszukiwania"
+   },
+   "indexTrandingPage": {
+      "message": "zakładki \"popularne\""
+   },
+   "indexUserPage": {
+      "message": "strony użytkownika"
+   },
+   "indexWorksOnly": {
+      "message": "Działa tylko na "
+   },
+   "lines": {
+      "message": "linie"
+   },
+   "name": {
+      "message": "GitHub Gloc"
+   },
+   "optionsAccess": {
+      "message": "zezwolić na dostęp do prywatnego repozytorium"
+   },
+   "optionsCreateToken": {
+      "message": "utwórz nowy token"
+   },
+   "optionsInputToken": {
+      "message": "Osobisty token dostępu"
+   },
+   "optionsLimits": {
+      "message": "obejść limit nieuwierzytelnionych żądań"
+   },
+   "optionsSaveButton": {
+      "message": "Zapisz"
+   },
+   "optionsSaved": {
+      "message": "Ustawienia zostały zapisane!"
+   },
+   "optionsTitle": {
+      "message": "Ustawienia"
+   },
+   "optionsTokenMustbeString": {
+      "message": "Token dostępu powinien być jako tekst np."
+   },
+   "optionsTokenWalid": {
+      "message": "Token jest prawidłowy."
+   },
+   "optionsTokenWrongLength": {
+      "message": "Długość tokenu jest nieprawidłowa!"
+   },
+   "optionsUlDescription": {
+      "message": "korzysta z API serwisu GitHub. Aplikacja domyślnie realizuje nieuwierzytelnione żądania do API GitHub, ustaw swój osobisty token dostępu (PAT) jeżeli chcesz:"
+   },
+   "shortName": {
+      "message": "Gloc"
+   },
+   "totalDirLoc": {
+      "message": "Całkowita liczba linii w obecnym katalogu:"
+   },
+   "totalExtLoc": {
+      "message": "Ze względu na rozszerzenie:"
+   },
+   "translateOurApp": {
+      "message": "Help us translate this app"
+   }
+}

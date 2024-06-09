@@ -1,0 +1,89 @@
+{
+   "addToken": {
+      "message": "Додати токен Github"
+   },
+   "attentionPlease": {
+      "message": "Можете приділити хвилину уваги, будь ласка?"
+   },
+   "author": {
+      "message": "Kas Elvirov"
+   },
+   "description": {
+      "message": "Gives you approximate count of lines of code on GitHub"
+   },
+   "github": {
+      "message": "GitHub"
+   },
+   "indexCountsFrom": {
+      "message": "Gives you approximate count of lines of code from:"
+   },
+   "indexEtc": {
+      "message": "тощо."
+   },
+   "indexProjectPage": {
+      "message": "сторінка з подробицями проекту"
+   },
+   "indexSearchPage": {
+      "message": "сторінка результатів пошуку"
+   },
+   "indexTrandingPage": {
+      "message": "трендова сторінка"
+   },
+   "indexUserPage": {
+      "message": "сторінка користувача"
+   },
+   "indexWorksOnly": {
+      "message": "Працює тільки на"
+   },
+   "lines": {
+      "message": "лінії"
+   },
+   "name": {
+      "message": "GitHub Gloc"
+   },
+   "optionsAccess": {
+      "message": "отримати доступ до приватного репозиторію"
+   },
+   "optionsCreateToken": {
+      "message": "створити токен"
+   },
+   "optionsInputToken": {
+      "message": "Токен особистого доступу"
+   },
+   "optionsLimits": {
+      "message": "обійти обмеження швидкості неавтентифікованих запитів"
+   },
+   "optionsSaveButton": {
+      "message": "Зберегти"
+   },
+   "optionsSaved": {
+      "message": "Опції збережено!"
+   },
+   "optionsTitle": {
+      "message": "Опції"
+   },
+   "optionsTokenMustbeString": {
+      "message": "Токен доступу повинен бути рядком, наприклад"
+   },
+   "optionsTokenWalid": {
+      "message": "Токен дійсний."
+   },
+   "optionsTokenWrongLength": {
+      "message": "Неприпустима довжина токена доступу!"
+   },
+   "optionsUlDescription": {
+      "message": "використовує API GitHub. За замовчуванням він робить неавтентифіковані запити до API GitHub, встановіть токен особистого доступу, якщо хочете:"
+   },
+   "shortName": {
+      "message": "Gloc"
+   },
+   "totalDirLoc": {
+      "message": "Загальна кількість рядків в поточному каталозі:"
+   },
+   "totalExtLoc": {
+      "message": "За розширеннями:"
+   },
+   "translateOurApp": {
+      "message": "Допоможіть нам перекласти цей додаток"
+   }
+}

@@ -1,0 +1,89 @@
+{
+   "addToken": {
+      "message": "Add Github Token"
+   },
+   "attentionPlease": {
+      "message": "May I have your attention, please?"
+   },
+   "author": {
+      "message": "Kas Elvirov"
+   },
+   "description": {
+      "message": "Gives you approximate count of lines of code on GitHub"
+   },
+   "github": {
+      "message": "GitHub"
+   },
+   "indexCountsFrom": {
+      "message": "Gives you approximate count of lines of code from:"
+   },
+   "indexEtc": {
+      "message": "etc."
+   },
+   "indexProjectPage": {
+      "message": "project detail page"
+   },
+   "indexSearchPage": {
+      "message": "search results page"
+   },
+   "indexTrandingPage": {
+      "message": "trending page"
+   },
+   "indexUserPage": {
+      "message": "user page"
+   },
+   "indexWorksOnly": {
+      "message": "Works only on"
+   },
+   "lines": {
+      "message": "lines"
+   },
+   "name": {
+      "message": "GitHub Gloc"
+   },
+   "optionsAccess": {
+      "message": "access a private repository"
+   },
+   "optionsCreateToken": {
+      "message": "create token"
+   },
+   "optionsInputToken": {
+      "message": "Personal access token"
+   },
+   "optionsLimits": {
+      "message": "bypass the rate limit of unauthenticated requests"
+   },
+   "optionsSaveButton": {
+      "message": "Save"
+   },
+   "optionsSaved": {
+      "message": "Options saved!"
+   },
+   "optionsTitle": {
+      "message": "Options"
+   },
+   "optionsTokenMustbeString": {
+      "message": "Access Token should be a String e.g."
+   },
+   "optionsTokenWalid": {
+      "message": "Token is valid."
+   },
+   "optionsTokenWrongLength": {
+      "message": "Access Token length appears wrong!"
+   },
+   "optionsUlDescription": {
+      "message": "uses GitHub API. By default it makes unauthenticated requests to the GitHub API, set personal access token if you want to:"
+   },
+   "shortName": {
+      "message": "Gloc"
+   },
+   "totalDirLoc": {
+      "message": "Total lines in the current directory:"
+   },
+   "totalExtLoc": {
+      "message": "By extensions:"
+   },
+   "translateOurApp": {
+      "message": "Help us translate this app"
+   }
+}

@@ -1,0 +1,89 @@
+{
+   "addToken": {
+      "message": "Добави GitHub личнен идентификатор"
+   },
+   "attentionPlease": {
+      "message": "Може ли да получа вниманието Ви, моля?"
+   },
+   "author": {
+      "message": "Kas Elvirov"
+   },
+   "description": {
+      "message": "Gives you approximate count of lines of code on GitHub"
+   },
+   "github": {
+      "message": "GitHub"
+   },
+   "indexCountsFrom": {
+      "message": "Gives you approximate count of lines of code from:"
+   },
+   "indexEtc": {
+      "message": "и т.н."
+   },
+   "indexProjectPage": {
+      "message": "страницата с детайли на проекта"
+   },
+   "indexSearchPage": {
+      "message": "страницата с резултати от търсене"
+   },
+   "indexTrandingPage": {
+      "message": "страница с популярни"
+   },
+   "indexUserPage": {
+      "message": "страницата на потребителя"
+   },
+   "indexWorksOnly": {
+      "message": "Работи само на"
+   },
+   "lines": {
+      "message": "редове"
+   },
+   "name": {
+      "message": "GitHub Gloc"
+   },
+   "optionsAccess": {
+      "message": "достъпите до частна папка"
+   },
+   "optionsCreateToken": {
+      "message": "създай token"
+   },
+   "optionsInputToken": {
+      "message": "Частен личен идентификатор за достъп"
+   },
+   "optionsLimits": {
+      "message": "да пропуснете лимита за скоростта на невалидните заявки"
+   },
+   "optionsSaveButton": {
+      "message": "Запази"
+   },
+   "optionsSaved": {
+      "message": "Опциите са запазени!"
+   },
+   "optionsTitle": {
+      "message": "Опции"
+   },
+   "optionsTokenMustbeString": {
+      "message": "Личният идентификатор трябва да е символен низ"
+   },
+   "optionsTokenWalid": {
+      "message": "Личният идентификатор е валиден."
+   },
+   "optionsTokenWrongLength": {
+      "message": "Личният идентификатор е грешен!"
+   },
+   "optionsUlDescription": {
+      "message": "използва GItHub API. По подразбиране той прави невалидни заявки към приложния програмен интерфейс (API) на GitHub, задава личен идентификатор за достъп, ако искате:"
+   },
+   "shortName": {
+      "message": "Gloc"
+   },
+   "totalDirLoc": {
+      "message": "Общ брой на редовете в тази папка:"
+   },
+   "totalExtLoc": {
+      "message": "Според разширения:"
+   },
+   "translateOurApp": {
+      "message": "Помогни да преведем това приложение"
+   }
+}
