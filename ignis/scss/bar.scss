@@ -67,16 +67,19 @@
 }
 
 .workspace {
-    @include hover($primaryContainer);
-    border-radius: 1rem;
-    margin: 0 0.25rem;
-    min-width: 0.7rem;
-    min-height: 0.7rem;
+    @include hover($inverseOnSurface);
+    border-radius: 0.4rem;
+    margin: 0 0.1rem;
+    /* min-width: 0.7rem; */
+    /* min-height: 0.7rem; */
+    font-size: 0.9rem;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
     transition: 0.3s;
 
     &.active {
-        @include hover($primary);
-        min-width: 2rem;
+        @include hover($surfaceVariant);
+        /* min-width: 2rem; */
     }
 }
 
@@ -121,14 +124,15 @@
 
 .battery-scale trough,
 .battery-scale trough highlight {
-    background: $surface;
-    border-radius: 1rem;
-    min-height: 1.3rem;
-    min-width: 5rem;
+    background-color: $surfaceContainerHighest;
+    border-radius: 0.5rem;
+    min-height: 1.5rem;
+    min-width: 6rem;
 }
 
 .battery-scale trough highlight {
-    background: $primary;
+    background-color: $primary;
+    min-width: 0rem;
 }
 
 .battery-icon {
