@@ -11,7 +11,7 @@ class WorkspaceButton(Widget.Button):
             on_click=lambda x: workspace.switch_to(),
             halign="start",
             valign="center",
-            label=workspace["name"],
+            label=workspace.name,
         )
         if workspace.id == hyprland.active_workspace.id:
             self.add_css_class("active")
