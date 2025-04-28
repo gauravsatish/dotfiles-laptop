@@ -1,11 +1,14 @@
+from ignis.services.backlight.service import BacklightService
 from ignis.utils import Utils
 from ignis.app import IgnisApp
 from ignis.services.wallpaper import WallpaperService
+from loguru import logger
 from modules import (
     Bar,
     ControlCenter,
     Launcher,
     NotificationPopup,
+    BSD,
     OSD,
     Powermenu,
     Settings,
@@ -36,5 +39,9 @@ for monitor in range(Utils.get_n_monitors()):
 Launcher()
 Powermenu()
 OSD()
+BSD()
 
 Settings()
+
+backlight = BacklightService.get_default()
+logger.info(backlight.brightness)
