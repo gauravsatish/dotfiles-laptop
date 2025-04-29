@@ -23,7 +23,16 @@ class Brightness(Widget.Box):
                     hexpand=True,
                     value=backlight.bind("brightness"),
                     css_classes=["material-slider"],
-                    on_change=lambda x: asyncio.create_task(backlight.set_brightness_async(x.value)),
+                    on_change=lambda x: asyncio.create_task(
+                        backlight.set_brightness_async(x.value)
+                    ),
+                ),
+                Widget.Button(
+                    child=Widget.Label(label="Min"),
+                    css_classes=["material-slider-arrow", "hover-surface"],
+                    on_click=lambda x: asyncio.create_task(
+                        backlight.set_brightness_async(1)
+                    ),
                 ),
             ],
         )

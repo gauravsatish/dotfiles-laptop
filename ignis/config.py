@@ -1,8 +1,8 @@
-from ignis.services.backlight.service import BacklightService
 from ignis.utils import Utils
+from ignis.menu_model import IgnisMenuModel, IgnisMenuItem, IgnisMenuSeparator
 from ignis.app import IgnisApp
+from ignis.widgets import Widget
 from ignis.services.wallpaper import WallpaperService
-from loguru import logger
 from modules import (
     Bar,
     ControlCenter,
@@ -42,6 +42,3 @@ OSD()
 BSD()
 
 Settings()
-
-backlight = BacklightService.get_default()
-logger.info(backlight.brightness)
