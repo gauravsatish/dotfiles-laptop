@@ -33,6 +33,6 @@ class BSD(Widget.Window):
 
         super().set_property(property_name, value)
 
-    @Utils.debounce(3000)
+    @Utils.debounce(1000)
     def __update_visible(self) -> None:
         super().set_property("visible", False)
