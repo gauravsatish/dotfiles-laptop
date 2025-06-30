@@ -1,5 +1,5 @@
-from ignis.widgets import Widget
-from ignis.app import IgnisApp
+from ignis import widgets
+from ignis.window_manager import WindowManager
 from .widgets import (
     QuickSettings,
     Brightness,
@@ -10,18 +10,17 @@ from .widgets import (
 )
 from .menu import opened_menu
 
-app = IgnisApp.get_default()
+window_manager = WindowManager.get_default()
 
-
-class ControlCenter(Widget.RevealerWindow):
+class ControlCenter(widgets.RevealerWindow):
     def __init__(self):
-        revealer = Widget.Revealer(
+        revealer = widgets.Revealer(
             transition_type="slide_left",
-            child=Widget.Box(
+            child=widgets.Box(
                 vertical=True,
                 css_classes=["control-center"],
                 child=[
-                    Widget.Box(
+                    widgets.Box(
                         vertical=True,
                         css_classes=["control-center-widget"],
                         child=[
@@ -48,13 +47,13 @@ class ControlCenter(Widget.RevealerWindow):
             css_classes=["unset"],
             anchor=["top", "right", "bottom", "left"],
             namespace="ignis_CONTROL_CENTER",
-            child=Widget.Box(
+            child=widgets.Box(
                 child=[
-                    Widget.Button(
+                    widgets.Button(
                         vexpand=True,
                         hexpand=True,
                         css_classes=["unset"],
-                        on_click=lambda x: app.close_window("ignis_CONTROL_CENTER"),
+                        on_click=lambda x: window_manager.close_window("ignis_CONTROL_CENTER"),
                     ),
                     revealer,
                 ],

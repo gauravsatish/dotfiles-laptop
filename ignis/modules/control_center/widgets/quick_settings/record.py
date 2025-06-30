@@ -1,15 +1,23 @@
-from ignis.widgets import Widget
+import asyncio
+from ignis import widgets
 from ...qs_button import QSButton
 from ...menu import Menu
-from ignis.services.recorder import RecorderService
+from ignis.exceptions import RecorderPortalCaptureCanceled
+from ignis.services.recorder import RecorderService, RecorderConfig
+
+AUDIO_DEVICES = {
+    "Internal audio": "default_output",
+    "Microphone": "default_input",
+    "Both sources": "default_output|default_input",
+}
 
 recorder = RecorderService.get_default()
 
 
 class RecordMenu(Menu):
     def __init__(self):
-        self._audio_switch = Widget.Switch(halign="end", hexpand=True, valign="center")
-        self._dropdown = Widget.DropDown(
+        self._audio_switch = widgets.Switch(halign="end", hexpand=True, valign="center")
+        self._dropdown = widgets.DropDown(
             items=["Internal audio", "Microphone", "Both sources"],
             css_classes=["record-dropdown"],
         )
@@ -17,29 +25,29 @@ class RecordMenu(Menu):
         super().__init__(
             name="recording",
             child=[
-                Widget.Icon(
+                widgets.Icon(
                     image="media-record-symbolic",
                     pixel_size=36,
                     halign="center",
                     css_classes=["record-icon"],
                 ),
-                Widget.Label(
+                widgets.Label(
                     label="Start recording?",
                     halign="center",
                     style="font-size: 1.2rem;",
                 ),
-                Widget.Box(
+                widgets.Box(
                     style="margin-top: 0.5rem;",
                     child=[
-                        Widget.Icon(
+                        widgets.Icon(
                             image="microphone-sensitivity-medium-symbolic",
                             pixel_size=20,
                             style="margin-right: 0.5rem;",
                         ),
-                        Widget.Box(
+                        widgets.Box(
                             vertical=True,
                             child=[
-                                Widget.Label(
+                                widgets.Label(
                                     label="Record audio",
                                     style="font-size: 1.1rem;",
                                     halign="start",
@@ -50,42 +58,40 @@ class RecordMenu(Menu):
                         self._audio_switch,
                     ],
                 ),
-                Widget.Box(
+                widgets.Box(
                     style="margin-top: 1rem;",
                     child=[
-                        Widget.Button(
-                            child=Widget.Label(label="Cancel"),
+                        widgets.Button(
+                            child=widgets.Label(label="Cancel"),
                             css_classes=["record-cancel-button", "unset"],
                             on_click=lambda x: self.set_reveal_child(False),  # type: ignore
                         ),
-                        Widget.Button(
-                            child=Widget.Label(label="Start recording"),
+                        widgets.Button(
+                            child=widgets.Label(label="Start recording"),
                             halign="end",
                             hexpand=True,
                             css_classes=["record-start-button", "unset"],
-                            on_click=lambda x: self.__start_recording(),  # type: ignore
+                            on_click=lambda x: asyncio.create_task(
+                                self.__start_recording()
+                            ),
                         ),
                     ],
                 ),
             ],
         )
 
-    def __start_recording(self) -> None:
+    async def __start_recording(self) -> None:
         self.set_reveal_child(False)
-        microphone = False
-        internal = False
-        if self._audio_switch.active:
-            if self._dropdown.selected == "Internal audio":
-                internal = True
-            elif self._dropdown.selected == "Microphone":
-                microphone = True
-            else:
-                internal = True
-                microphone = True
 
-        recorder.start_recording(
-            record_microphone=microphone, record_internal_audio=internal
-        )
+        config = RecorderConfig.new_from_options()
+
+        if self._audio_switch.active:
+            config.audio_devices = [AUDIO_DEVICES.get(self._dropdown.selected, "")]
+
+        try:
+            await recorder.start_recording(config=config)
+        except RecorderPortalCaptureCanceled:
+            pass
 
 
 class RecordButton(QSButton):

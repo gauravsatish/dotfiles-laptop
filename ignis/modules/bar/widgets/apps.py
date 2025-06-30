@@ -1,17 +1,17 @@
-from ignis.widgets import Widget
-from ignis.app import IgnisApp
+from ignis import widgets
+from ignis.window_manager import WindowManager
 from ignis.services.applications import ApplicationsService, Application
 from ignis.menu_model import IgnisMenuModel, IgnisMenuItem, IgnisMenuSeparator
 
 applications = ApplicationsService.get_default()
-app = IgnisApp.get_default()
+window_manager = WindowManager.get_default()
 
 TERMINAL_FORMAT = "kitty %command%"
 
 
-class AppItem(Widget.Button):
+class AppItem(widgets.Button):
     def __init__(self, app: Application):
-        menu = Widget.PopoverMenu(
+        menu = widgets.PopoverMenu(
             model=IgnisMenuModel(
                 IgnisMenuItem(label="Launch", on_activate=lambda x: app.launch()),
                 IgnisMenuSeparator(),
@@ -27,23 +27,23 @@ class AppItem(Widget.Button):
         )
 
         super().__init__(
-            child=Widget.Box(child=[Widget.Icon(image=app.icon, pixel_size=32), menu]),
+            child=widgets.Box(child=[widgets.Icon(image=app.icon, pixel_size=32), menu]),
             on_click=lambda x: app.launch(terminal_format=TERMINAL_FORMAT),
             on_right_click=lambda x: menu.popup(),
             css_classes=["pinned-app", "unset"],
         )
 
 
-class Apps(Widget.Box):
+class Apps(widgets.Box):
     def __init__(self):
         super().__init__(
             child=applications.bind(
                 "pinned",
                 transform=lambda value: [AppItem(app) for app in value]
                 + [
-                    Widget.Button(
-                        child=Widget.Icon(image="start-here-symbolic", pixel_size=32),
-                        on_click=lambda x: app.toggle_window("ignis_LAUNCHER"),
+                    widgets.Button(
+                        child=widgets.Icon(image="start-here-symbolic", pixel_size=32),
+                        on_click=lambda x: window_manager.toggle_window("ignis_LAUNCHER"),
                         css_classes=["pinned-app", "unset"],
                     )
                 ],
